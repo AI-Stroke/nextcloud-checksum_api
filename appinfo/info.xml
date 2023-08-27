@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
       xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
-    <id>checksum_api</id>
-    <name>Checksum API</name>
+    <id>checksum_api_custom</id>
+    <name>Checksum API customized</name>
     <summary>Provide hash values of a file by REST API</summary>
     <description>Provide hash values of a file by REST API</description>
-    <version>0.1.2</version>
+    <version>0.2.0</version>
     <licence>apache</licence>
     <author>National Institute of Infomatics</author>
     <types>
@@ -14,8 +14,8 @@
     <namespace>ChecksumAPI</namespace>
     <category>files</category>
     <category>tools</category>
-    <bugs>https://github.com/RCOSDP/nextcloud-checksum_api/issues</bugs>
+    <bugs>https://github.com/AI-Stroke/nextcloud-checksum_api/issues</bugs>
     <dependencies>
-        <nextcloud min-version="15" max-version="19" />
+        <nextcloud min-version="27" max-version="27" />
     </dependencies>
 </info>
